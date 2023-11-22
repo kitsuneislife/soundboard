@@ -1,0 +1,136 @@
+.billiebossanova,
+.doiwannaknow,
+.donadosmeusgatos,
+.goingunder,
+.honeymaker,
+.howtodisappear,
+.juliet,
+.k,
+.killbill,
+.midnightlove,
+.milkofthesiren,
+.notsobadinla,
+.slimeyouout,
+.willow {
+  opacity: 1;
+  animation: moveGradient 20s ease infinite;
+  transition: opacity 0.4s ease;
+}
+
+.billiebossanova {
+  background: linear-gradient(270deg, #ed174c, #d269a9, #0076c0, #00b6b9, #72c057, #ffe355, #ed174c);
+  background-size: 200% 200%;
+}
+
+.doiwannaknow {
+  background: linear-gradient(270deg, #cc0000, #e60000, #ff0000, #ff3333, #ff6666);
+  background-size: 200% 200%;
+}
+
+.milkofthesiren {
+  background: linear-gradient(270deg, #ff9900, #ffad33, #ffc266, #ffd699);
+  background-size: 200% 200%;
+}
+
+.k {
+  background: linear-gradient(270deg, #a3c838, #fad4b5, #fb6534, #cc4730, #ff66a3);
+  background-size: 200% 200%;
+}
+
+.juliet {
+  background: linear-gradient(270deg, #df6f59, #df6f59, #9d4a2a, #66271c);
+  background-size: 200% 200%;
+}
+
+.midnightlove {
+  background: linear-gradient(270deg, #cc33ff, #d633ff, #e633ff, #f233ff, #ff33fb, #ff33eb, #ff33d9);
+  background-size: 200% 200%;
+}
+
+.willow {
+  background: linear-gradient(270deg, #cccccc, #b3b3b3, #999999, #808080, #666666, #4d4d4d);
+  background-size: 200% 200%;
+}
+
+.howtodisappear {
+  background: linear-gradient(270deg, #ffcc66, #ffd699, #ffe5b3,#f7b130);
+  background-size: 200% 200%;
+}
+
+.goingunder {
+  background: linear-gradient(270deg, #47001e, #4a0d13, #a43232, #a35c65, #b56566, #eca0aa, #e7cbcd);
+  background-size: 200% 200%;
+}
+
+.honeymaker {
+  background: linear-gradient(270deg, #ff8533, #ffb366, #cccccc);
+  background-size: 200% 200%;
+}
+
+.killbill {
+  background: linear-gradient(270deg, #00509e, #0066cc, #0077e6, #0088ff, #3399ff, #66aaff, #99bbff);
+  background-size: 200% 200%;
+}
+
+.notsobadinla {
+  background: linear-gradient(270deg, #ffb366, #ffc380, #ffd699, #ffe5b3, #fff2cc, #fff9e6, #ffffff);
+  background-size: 200% 200%;
+}
+
+.donadosmeusgatos {
+  background: linear-gradient(270deg, #ffcc00, #ffdb4d, #ffe680);
+  background-size: 200% 200%;
+}
+
+.slimeyouout {
+  background: linear-gradient(270deg, #ff5733, #ff8c1a, #ffc700, #aaff00, #37ff00, #00ff7f, #00ffcc);
+  background-size: 200% 200%;
+}
+
+.tacotruckxvb {
+  background: linear-gradient(270deg, #ff3366, #ff66b2, #ff99e6, #dcb3eb, #b399ff, #8c66ff, #6633ff);
+  background-size: 200% 200%;
+}
+
+
+.spectrum {
+  background: linear-gradient(270deg, #ed174c, #d269a9, #0076c0, #00b6b9, #72c057, #ffe355, #ed174c);
+background-size: 200% 200%; 
+animation: moveGradient 20s ease infinite;
+  transition: opacity 0.4s ease;
+}
+
+.graySpectrum {
+  background: linear-gradient(270deg, #333, #666, #999, #ccc, #eee);
+  animation: moveGradient 20s ease infinite;
+  transition: opacity 0.4s ease;
+}
+
+.invisi {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+@keyframes moveGradient { 
+    0%{background-position:100% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+}
+@-webkit-keyframes moveGradient {
+    0%{background-position:100% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+}
+@-moz-keyframes moveGradient {
+    0%{background-position:100% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+}
+@-o-keyframes moveGradient {
+    0%{background-position:100% 0%}
+    50%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+}

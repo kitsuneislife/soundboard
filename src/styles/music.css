@@ -1,0 +1,65 @@
+@keyframes quiet {
+  25%{
+    transform: scaleY(.6);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.8);
+  }
+}
+
+@keyframes normal {
+  25%{
+    transform: scaleY(1);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.6);
+  }
+}
+@keyframes loud {
+  25%{
+    transform: scaleY(1);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(1.2);
+  }
+}
+
+.music{
+  transform: scaleY(.4);
+  width: 8px;
+  height: 50px;
+  background: white;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  border-radius: 8px;
+}
+
+.music1{
+  animation-name: quiet;
+}
+
+.music2{
+  animation-name: normal;
+}
+
+.music3{
+  animation-name: quiet;
+}
+
+.music4{
+  animation-name: loud;
+}
+
+.music5{
+  animation-name: quiet;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Replit</title>
+  <link href="/src/styles/main.css" rel="stylesheet" type="text/css" />
+  <link href="/src/styles/music.css" rel="stylesheet" type="text/css" />
+  <link href="/src/styles/spectrum.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div>
+      <div class="musicContainer">
+        <!--img class="circleVector" src="/src/assets/vector05.svg"-->
+        <div class="circleGradient" id="colorSpectrum"></div>
+        <div class="circleGradient graySpectrum" id="graySpectrum"></div>
+        <div class="circleFront"></div>
+        <div class="circleBack"></div>
+        <div class="musicRow">
+          <div class="music" id="music1"></div>
+          <div class="music" id="music2"></div>
+          <div class="music" id="music3"></div>
+          <div class="music" id="music4"></div>
+          <div class="music" id="music5"></div>
+        </div>
+      </div>
+    </div>
+    <div class="playerContainer">
+      
+      <div class="playContainer" onclick="play('billiebossanova')" id="billiebossanova">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/billiebossanova.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playbilliebossanova">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Billie Bossa Nova </span>
+            <span class="playArtist"> Billie Eilish </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('doiwannaknow')" id="doiwannaknow">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/doiwannaknow.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playdoiwannaknow">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Do I Wanna Know? </span>
+            <span class="playArtist"> Arctic Monkeys </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('donadosmeusgatos')" id="donadosmeusgatos">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/donadosmeusgatos.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playdonadosmeusgatos">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Dona dos Meus Gatos </span>
+            <span class="playArtist"> VirginGod, Roddie </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('goingunder')" id="goingunder">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/goingunder.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playgoingunder">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Going Under </span>
+            <span class="playArtist"> Evanescence </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('honeymaker')" id="honeymaker">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/honeymaker.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playhoneymaker">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Honeymaker </span>
+            <span class="playArtist"> Blue Foster </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('howtodisappear')" id="howtodisappear">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/howtodisappear.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playhowtodisappear">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> How to Disappear </span>
+            <span class="playArtist"> Lana Del Rey </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('juliet')" id="juliet">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/juliet.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playjuliet">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Juliet </span>
+            <span class="playArtist"> Cavetown </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('k')" id="k">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/k.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playk">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> K. </span>
+            <span class="playArtist"> Cigarettes After Sex </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('killbill')" id="killbill">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/killbill.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playkillbill">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Kill Bill </span>
+            <span class="playArtist"> SZA </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('midnightlove')" id="midnightlove">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/midnightlove.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playmidnightlove">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Midnight Love </span>
+            <span class="playArtist"> Girl in Red </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('milkofthesiren')" id="milkofthesiren">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/milkofthesiren.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playmilkofthesiren">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Milk of the Siren </span>
+            <span class="playArtist"> Melanie Martinez </span>
+        </div>
+      </div>
+      
+      <div class="playContainer" onclick="play('notsobadinla')" id="notsobadinla">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/notsobadinla.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playnotsobadinla">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Not So Bad in LA </span>
+            <span class="playArtist"> Allie X </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('slimeyouout')" id="slimeyouout">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/slimeyouout.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playslimeyouout">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Slime You Out </span>
+            <span class="playArtist"> Drake, SZA </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('tacotruckxvb')" id="tacotruckxvb">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/tacotruckxvb.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playtacotruckxvb">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Taco Truck x VB </span>
+            <span class="playArtist"> Lana Del Rey </span>
+        </div>
+      </div>
+
+      <div class="playContainer" onclick="play('willow')" id="willow">
+        <div class="imageContainer">
+            <img class="playImage" src="src/album/willow.jfif">
+            <img class="playButton" src="src/assets/play.png" id="playwillow">
+        </div>
+        <div class="playColumn">
+            <span class="playTitle"> Willow </span>
+            <span class="playArtist"> Taylor Swift </span>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="src/scripts/script.js"></script>
+</body>
+
+</html>
